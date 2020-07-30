@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            I have a number on my mind the is bitween 1 to 100.Can you Guess it. ?
+        </h1>
+        <div id="input-container">
+            <input type="number" placeholder="Enter Your Number" name="number" id="number-id" min="1" max="100">
+            <div class="button" id="submit">Submit</div>
+        </div>
+        <h2 id="livetwxt">Lives:<span id="lives">10</span></h2>
+        <div id="message"></div>
+    </div>
+    <script src="./game.js"></script>
+
+</body>
+
+</html>
